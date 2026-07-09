@@ -1,0 +1,10 @@
+# CRM interno — repo separado, nunca publicar junto com o site
+afinatto-os/
+
+# Screenshots de referência do desenvolvimento
+*.png
+
+# Backup local do site
+afinatto-final.backup.html
+
+node_modules/
