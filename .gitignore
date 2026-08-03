@@ -2,7 +2,7 @@
 afinatto-os/
 
 # Screenshots de referência do desenvolvimento
-*.png
+afinatto-*.png
 
 # Backup local do site
 afinatto-final.backup.html
