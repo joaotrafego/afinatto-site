@@ -1467,6 +1467,14 @@
   }
 
 </style>
+<!-- Google tag (gtag.js) — Google Ads 244-485-5443 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11303986361"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-11303986361');
+</script>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -2338,6 +2346,22 @@ window.addEventListener('scroll', () => {
     ? '0 4px 32px -4px rgba(28,25,23,0.14)'
     : '0 4px 24px -4px rgba(28,25,23,0.08)';
 });
+</script>
+<script>
+/* ── Google Ads: ações de conversão ─────────────────────── */
+/* Contato WhatsApp: dispara em qualquer clique de link wa.me */
+document.addEventListener('click', function (e) {
+  var link = e.target.closest ? e.target.closest('a[href*="wa.me"]') : null;
+  if (link && typeof gtag === 'function') {
+    gtag('event', 'conversion', { 'send_to': 'AW-11303986361/Ho3fCI3I4ewcELnJlI4q' });
+  }
+});
+/* Envio de formulário de lead: dispara no submit do formulário de contato */
+document.addEventListener('submit', function (e) {
+  if (e.target && e.target.classList && e.target.classList.contains('contato-form') && typeof gtag === 'function') {
+    gtag('event', 'conversion', { 'send_to': 'AW-11303986361/3sTkCJDI4ewcELnJlI4q' });
+  }
+}, true);
 </script>
 </body>
 </html>
